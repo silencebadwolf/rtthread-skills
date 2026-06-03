@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "skill",
+  "id": "rtthread-bsp-builder",
+  "displayName": "rtthread-bsp-builder",
+  "summary": "克隆或更新官方 RT-Thread 仓库，可按需让用户选择分支、标签或提交，查找指定芯片或板卡的官方 BSP，检查 BSP 的 README 与 rtconfig，并按官方工作流推动其完成 GCC 构建。当处理 RT-Thread MCU 或嵌入式项目，且需要回答“官方是否支持这个芯片或板卡”、选择版本、设置官方 BSP、运行 menuconfig/pkgs/scons，或让官方 BSP 编译通过时使用。如果没有可信的官方 BSP，就明确停止，不要自行虚构或移植。",
+  "legacyAliases": [],
+  "status": "migrated"
+}
